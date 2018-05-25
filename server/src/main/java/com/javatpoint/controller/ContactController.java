@@ -1,4 +1,3 @@
-package com.javatpoint.controller;
 // This is Praveen working in Java project
 package com.javatpoint.controller;  
 import org.springframework.stereotype.Controller;  
@@ -26,3 +25,4 @@ public class ContactController {
     public ModelAndView showContacts() {  
         return new ModelAndView("contact", "command", new Contact());  
     }  
+}  
