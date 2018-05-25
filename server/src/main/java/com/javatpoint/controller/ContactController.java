@@ -14,7 +14,11 @@ public class ContactController {
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Sandy has written the code here to add contact  
+=======
+        //write the code here to add contact  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
         //write the code here to add contact  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
@@ -31,7 +35,11 @@ public class ContactController {
     }  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }  
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
 }  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
