@@ -14,6 +14,7 @@ public class ContactController {
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	String message = contact.toString();
 =======
@@ -32,12 +33,16 @@ public class ContactController {
 =======
 >>>>>>> 6efcedd... FL-DILEEP: wishing everyone
     	String message = contact.toString();
+=======
+	String message = contact.toString();
+>>>>>>> 5eac95b... FL-DILEEP: modified FIrst Commit
         return "redirect:contact.html"+message;  
     }  
       
     @RequestMapping("/contact")  
     public ModelAndView showContacts() {  
         return new ModelAndView("contact", "command", new Contact());  
+<<<<<<< HEAD
 <<<<<<< HEAD
     } Hello everyone;
     //wishing everyone
@@ -59,6 +64,9 @@ public class ContactController {
 =======
     } Hello everyone
 
+=======
+    } Hello everyone;
+>>>>>>> 5eac95b... FL-DILEEP: modified FIrst Commit
     //wishing everyone
 }  
 
