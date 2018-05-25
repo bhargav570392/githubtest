@@ -9,5 +9,5 @@ public class HelloWorldController {
         String message = "Hello World, Spring MVC @ Javatpoint";  
         return new ModelAndView("hello", "message", message);  
     }  
-//Testing the script
+//Testing the script and uploading
 }  
