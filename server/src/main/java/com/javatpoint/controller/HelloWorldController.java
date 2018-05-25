@@ -9,9 +9,13 @@ public class HelloWorldController {
         String message = "Hello World, Spring MVC @ Javatpoint";  
         return new ModelAndView("hello", "message", message);  
     }  
+<<<<<<< HEAD
 }
 
 
 
 //adding comments to task1 by S
 //java comments
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
