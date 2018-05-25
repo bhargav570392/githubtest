@@ -1,5 +1,6 @@
 package com.javatpoint.controller;
 // This is Praveen working in Java project
+package com.javatpoint.controller;  
 import org.springframework.stereotype.Controller;  
 import org.springframework.validation.BindingResult;  
 import org.springframework.web.bind.annotation.ModelAttribute;  
@@ -15,7 +16,7 @@ public class ContactController {
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
         // Sandy has written the code here to add contact  
         //write the code here to add contact  
-    	String message = contact.toString();
+        //write the code here to add contact  
         return "redirect:contact.html"+message;  
     }  
       
