@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8e04e6be4ad11f6f8c8a2676a571c6432c54a509
 //Hello Admin
@@ -16,6 +17,8 @@
 >>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
 >>>>>>> 8e04e6be4ad11f6f8c8a2676a571c6432c54a509
+=======
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
 >>>>>>> a845a2e... FL-TEJA: Add java package.
 package com.javatpoint.controller;  
@@ -34,6 +37,7 @@ public class HelloWorldController {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }  
 =======
 }  
@@ -44,6 +48,9 @@ public class HelloWorldController {
 =======
 }  
 >>>>>>> 8e04e6be4ad11f6f8c8a2676a571c6432c54a509
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
 }  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
