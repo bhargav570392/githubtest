@@ -12,7 +12,7 @@ import com.javatpoint.form.Contact;
 public class ContactController {  
     @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
-        //write the code here to add contact  
+        // Sandy has written the code here to add contact  
     	String message = contact.toString();
         return "redirect:contact.html"+message;  
     }  
