@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 // this is first program
 // this is sample java program
+=======
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 package com.javatpoint.controller;  
 import org.springframework.stereotype.Controller;  
 import org.springframework.web.bind.annotation.RequestMapping;  
@@ -11,4 +14,8 @@ public class HelloWorldController {
         String message = "Hello World, Spring MVC @ Javatpoint";  
         return new ModelAndView("hello", "message", message);  
     }  
+<<<<<<< HEAD
 }  
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
