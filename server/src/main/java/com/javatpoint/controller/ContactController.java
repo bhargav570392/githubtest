@@ -11,30 +11,12 @@ import com.javatpoint.form.Contact;
 @SessionAttributes  
 public class ContactController {  
     @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
-    public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
-<< HEAD
-<< HEAD
-         
-=======
-        //write the code here to add contact  
->>>>>>> a845a2e... FL-TEJA: Add java package.
-=======
-        //write the code here to add contact  
->>>>>>> a845a2e... FL-TEJA: Add java package.
-    	String message = contact.toString();
-        return "redirect:contact.html"+message;  
+    public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {    
     }  
       
     @RequestMapping("/contact")  
     public ModelAndView showContacts() {  
         return new ModelAndView("contact", "command", new Contact());  
     }  
-<< HEAD
-<< HEAD
 }  
-=======
-}  
->>>>>>> a845a2e... FL-TEJA: Add java package.
-=======
-}  
->>>>>>> a845a2e... FL-TEJA: Add java package.
+
