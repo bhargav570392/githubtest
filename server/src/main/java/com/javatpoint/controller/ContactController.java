@@ -26,3 +26,4 @@ public class ContactController {
         return new ModelAndView("contact", "command", new Contact());  
     }  
 }  
+}  
