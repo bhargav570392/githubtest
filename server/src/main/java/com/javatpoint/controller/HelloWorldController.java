@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // this is first program
 // this is sample java program
+=======
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
 >>>>>>> a845a2e... FL-TEJA: Add java package.
 package com.javatpoint.controller;  
@@ -15,7 +18,11 @@ public class HelloWorldController {
         return new ModelAndView("hello", "message", message);  
     }  
 <<<<<<< HEAD
+<<<<<<< HEAD
 }  
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
 }  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
