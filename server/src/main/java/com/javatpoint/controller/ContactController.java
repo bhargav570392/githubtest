@@ -13,14 +13,10 @@ public class ContactController {
     @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
 <<<<<<< HEAD
-<<<<<<< HEAD
         // Sandy has written the code here to add contact  
 =======
+>>>>>>> 6c17d15... FL-TEJA: Add java package.
         //write the code here to add contact  
->>>>>>> a845a2e... FL-TEJA: Add java package.
-=======
-        //write the code here to add contact  
->>>>>>> a845a2e... FL-TEJA: Add java package.
     	String message = contact.toString();
         return "redirect:contact.html"+message;  
     }  
@@ -31,6 +27,8 @@ public class ContactController {
     }  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 }  
 =======
 }  
@@ -38,3 +36,9 @@ public class ContactController {
 =======
 }  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
+=======
+}  
+>>>>>>> 6c17d15... FL-TEJA: Add java package.
