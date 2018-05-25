@@ -9,18 +9,25 @@ import org.springframework.web.servlet.ModelAndView;
 import com.javatpoint.form.Contact;  
 @Controller  
 @SessionAttributes  
+< HEAD
 //our programe starts from here
 //in our program our class name is contactcontroller
 public class ContactController {  
     @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
-<<<<<<< HEAD
-<<<<<<< HEAD
+< HEAD
+< HEAD
         // Sandy has written the code here to add contact  
 =======
         //write the code here to add contact  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
+        //write the code here to add contact  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
+=======
+public class ContactController {  
+    @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
+    public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
         //write the code here to add contact  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
     	String message = contact.toString();
@@ -31,9 +38,13 @@ public class ContactController {
     public ModelAndView showContacts() {  
         return new ModelAndView("contact", "command", new Contact());  
     }  
-<<<<<<< HEAD
-<<<<<<< HEAD
+< HEAD
+< HEAD
+< HEAD
 }  
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
 =======
 }  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
