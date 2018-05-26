@@ -15,8 +15,8 @@ public class ContactController {
 <<<<<<< HEAD
 <<<<<<< HEAD
         // Sandy has written the code here to add contact 
-	// I didnt modify any line
-	// This is done by laxmi
+	// Reddy is modifying this code
+	// adding the above comments
 =======
         //write the code here to add contact  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
