@@ -15,6 +15,8 @@ public class ContactController {
         // Sandy modified the code here to add contact  
         //write the code here to add contact  
         //write the code here to add contact  
+        // Sandy modified the code here to add contact  
+        //write the code here to add contact  
         //write the code here to add contact  
     	String message = contact.toString();
         return "redirect:contact.html"+message;  
@@ -26,6 +28,9 @@ public class ContactController {
     }  
 
 }
+}  
+}  
+}  
 }  
 }  
 }  
