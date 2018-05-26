@@ -1,3 +1,5 @@
+// this is first program
+// this is sample java program
 package com.javatpoint.controller;  
 import org.springframework.stereotype.Controller;  
 import org.springframework.web.bind.annotation.RequestMapping;  
