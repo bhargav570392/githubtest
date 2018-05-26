@@ -10,3 +10,6 @@ public class HelloWorldController {
         return new ModelAndView("hello", "message", message);  
     }  
 }  
+#first commit
+#second commit
+#third commit
