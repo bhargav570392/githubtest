@@ -14,7 +14,7 @@ public class ContactController {
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
 <<<<<<< HEAD
 <<<<<<< HEAD
-        // Sandy has written the code here to add contact  
+        // Sandy modified the code here to add contact  
 =======
         //write the code here to add contact  
 >>>>>>> a845a2e... FL-TEJA: Add java package.
