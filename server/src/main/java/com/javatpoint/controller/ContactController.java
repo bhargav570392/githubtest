@@ -1,4 +1,4 @@
-package com.javatpoint.controller;  
+package com.javatpoint.controller; Hey im editing right now  
 import org.springframework.stereotype.Controller;  
 import org.springframework.validation.BindingResult;  
 import org.springframework.web.bind.annotation.ModelAttribute;  
@@ -12,7 +12,15 @@ import com.javatpoint.form.Contact;
 public class ContactController {  
     @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
+<<<<<<< HEAD
+<<<<<<< HEAD
+        // Sandy has written the code here to add contact  
+=======
         //write the code here to add contact  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
+=======
+        //write the code here to add contact  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
     	String message = contact.toString();
         return "redirect:contact.html"+message;  
     }  
@@ -21,4 +29,12 @@ public class ContactController {
     public ModelAndView showContacts() {  
         return new ModelAndView("contact", "command", new Contact());  
     }  
+<<<<<<< HEAD
+<<<<<<< HEAD
 }  
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
+=======
+}  
+>>>>>>> a845a2e... FL-TEJA: Add java package.
