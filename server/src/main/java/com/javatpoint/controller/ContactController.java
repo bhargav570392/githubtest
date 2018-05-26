@@ -1,5 +1,5 @@
+package com.javatpoint.controller;
 // This is Praveen working in Java project
-package com.javatpoint.controller;  
 import org.springframework.stereotype.Controller;  
 import org.springframework.validation.BindingResult;  
 import org.springframework.web.bind.annotation.ModelAttribute;  
