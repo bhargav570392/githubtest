@@ -8,5 +8,6 @@ public class HelloWorldController {
     public ModelAndView helloWorld() {  
         String message = "Hello World, Spring MVC @ Javatpoint";  
         return new ModelAndView("hello", "message", message);  
+//Adding the testing Comment
     }  
 }  
