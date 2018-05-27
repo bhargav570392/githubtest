@@ -9,6 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 import com.javatpoint.form.Contact;  
 @Controller  
 @SessionAttributes  
+//our programe starts from here
+//in our program our class name is contactcontroller
 public class ContactController {  
     @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
