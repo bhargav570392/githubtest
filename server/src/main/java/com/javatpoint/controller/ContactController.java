@@ -18,7 +18,7 @@ public class ContactController {
     }  
       
     @RequestMapping("/contact")  
-    public ModelAndView showContacts() {  
+    public ModelAndView showfiles() {  
         return new ModelAndView("contact", "command", new Contact());  
     }  
 }  
