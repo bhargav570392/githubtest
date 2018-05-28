@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;  
 import com.javatpoint.form.Contact;  
 @Controller  
-@SessionAttributes  
+@SessionAttributes
+//Code starts from here
+//java code
 public class ContactController {  
     @RequestMapping(value = "/addContact", method = RequestMethod.POST)  
     public String addContact(@ModelAttribute("contact") Contact contact, BindingResult result) {  
