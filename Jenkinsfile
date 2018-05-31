@@ -1,22 +1,10 @@
-node
-{
-    stage('Checkout')
-    {
-        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/bhargav570392/githubtest.git']]])
+
+#!/usr/bin/env groovy
+
+node ('master'){
+    stage('Build and Test') {
+        properties([pipelineTriggers([[$class: 'GitHubPushTrigger']])])
+        checkout scm
+      
     }
-    
-     stage('Gitpush') {
-            properties([pipelineTriggers([githubPush()])])
-        }
-    stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-            }
-    
 }
